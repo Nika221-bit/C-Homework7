@@ -12,3 +12,4 @@ C:\Users\User\OneDrive\Desktop\C#Homework7\C#Homework7\obj\Debug\net10.0\refint\
 C:\Users\User\OneDrive\Desktop\C#Homework7\C#Homework7\obj\Debug\net10.0\C#Homework7.pdb
 C:\Users\User\OneDrive\Desktop\C#Homework7\C#Homework7\obj\Debug\net10.0\C#Homework7.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\C#Homework7\C#Homework7\obj\Debug\net10.0\ref\C#Homework7.dll
+C:\Users\User\OneDrive\Desktop\C#Homework7\C#Homework7\obj\Debug\net10.0\C#Homework7.sourcelink.json

@@ -6,4 +6,6 @@ Movie movie = new Movie("The Shawshank Redemption", "Films is about two imprison
 book.PrintBook();
 Console.WriteLine("/n");
 movie.PrintMovie();
-
+Console.WriteLine("/n");
+Product product = Product.CreateProduct();
+product.PrintProduct();
