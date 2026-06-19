@@ -24,4 +24,21 @@ internal class Movie
         Console.WriteLine($"Genre: {Genre}");
         Console.WriteLine($"DurationTim: {DurationTime}");
     } 
+
+    public static Movie EnterMovie()
+    {
+        Console.WriteLine("Enter movie name:");
+        string name = Console.ReadLine();
+        Console.WriteLine("Enter movie description:");
+        string description = Console.ReadLine();
+        Console.WriteLine("Enter movie genre:");
+        string genre = Console.ReadLine();
+        Console.WriteLine("Enter movie duration (hh:mm:ss):");
+        TimeSpan durationTime = TimeSpan.Parse(Console.ReadLine());
+       
+        
+        Movie movie = new Movie(name, description, genre, durationTime);
+        return movie;
+
+    } 
 }

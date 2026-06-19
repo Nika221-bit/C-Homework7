@@ -24,4 +24,19 @@ internal class Book
         Console.WriteLine($"Page : {Pagecout}");
         Console.WriteLine($"Release year : {ReleaseYear}");
     }
+
+    public static Book CreateBook()
+    {
+        Console.WriteLine("Enter the book title:");
+        string title = Console.ReadLine();
+        Console.WriteLine("Enter the book author:");
+        string author = Console.ReadLine();
+        Console.WriteLine("Enter the number of pages:");
+        int pageCount = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the release year (YYYY-MM-DD):");
+        DateOnly releaseYear = DateOnly.Parse(Console.ReadLine());
+        
+        Book book = new Book(title, author, pageCount, releaseYear);
+        return book;
+    }
 }
